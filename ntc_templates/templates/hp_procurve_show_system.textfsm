@@ -33,7 +33,7 @@ Start
   ^\s*Software\s+revision\s+:\s+${SOFTWARE_VERSION}
   ^\s*Base\s+MAC\s+Addr\s+:\s+${MAC_ADDRESS}
   ^\s*ROM\s+Version\s+:\s+${ROM_VERSION}\s+Serial\s+Number\s+:\s+${SERIAL}
-  ^\s*Allow\s+V\d\s+Modules\s+:\s+${ALLOW_MODS}
+  ^\s*Allow\s+V\d+\s+Modules\s+:\s+${ALLOW_MODS}
   ^\s*Up\s+Time\s+:\s+${UPTIME}\s+Memory\s+-\s+Total\s+:\s+${MEM_TOT}
   ^\s*CPU\s+Util[^:]*:\s+${CPU_UTIL}\s+Free\s+:\s+${MEM_FREE}
   ^\s*IP\s+Mgmt\s+-\s+Pkts\s+Rx\s+:\s+${PACKETS_RX}\s+Packet\s+-\s+Total\s+:\s+${PACKETS_TOT}
